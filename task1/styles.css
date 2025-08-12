@@ -10,12 +10,12 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    background-color: rgba(0, 0, 255, 0.8); /* Initial blue background */
+    background-color: rgba(0, 0, 255, 0.8); 
     color: white;
     padding: 15px;
     transition: background-color 0.3s, color 0.3s;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); /* Shadow effect */
-    z-index: 1000; /* Ensures it's above other content */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); 
+    z-index: 1000; 
 }
 
 .navbar ul {
@@ -27,31 +27,31 @@ body {
 }
 
 .navbar li {
-    position: relative; /* For the pseudo-elements */
+    position: relative; 
 }
 
 .navbar a {
     color: white;
     text-decoration: none;
     padding: 10px 15px;
-    border-radius: 5px; /* Rounded corners */
+    border-radius: 5px; 
     transition: color 0.3s, background-color 0.3s;
 }
 
 .navbar a:hover {
-    color: yellow; /* Change font color on hover */
-    background-color: rgba(255, 255, 255, 0.2); /* Subtle background change */
-    border-radius: 5px; /* Ensure rounded corners */
+    color: yellow; 
+    background-color: rgba(255, 255, 255, 0.2); 
+    border-radius: 5px; 
 }
 
 .scrolled {
-    background-color: rgba(0, 0, 200, 0.9); /* Darker when scrolled */
+    background-color: rgba(0, 0, 200, 0.9); 
     color: white;
 }
 
 .content {
-    padding-top: 80px; /* Space for the fixed navbar */
-    text-align: center; /* Center the text */
+    padding-top: 80px; 
+    text-align: center; 
 }
 
 h1 {
